@@ -1,6 +1,6 @@
 jQuery(document).ready(function() {
 // Tooltip only Text
-jQuery('.masterTooltip').hover(function(){
+jQuery('.jQueryTooltip').hover(function(){
         // Hover over code
         var title = jQuery(this).attr('title');
         jQuery(this).data('tipText', title).removeAttr('title');
